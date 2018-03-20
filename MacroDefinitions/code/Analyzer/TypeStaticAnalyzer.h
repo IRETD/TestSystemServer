@@ -1,0 +1,12 @@
+#ifndef TYPESTATICANALYZER_H
+#define TYPESTATICANALYZER_H
+
+enum class TypeStaticAnalyzer {
+
+    UNDEFINED_ANALYZE = 1,
+    ERROR_ANALYZE = 2,
+    WARNING_ANALYZE = 3,
+    STYLE_ANALYZE = 4
+};
+
+#endif // TYPESTATICANALYZER_H
